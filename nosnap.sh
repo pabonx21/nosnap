@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+# set -e
 
 # Ensure the script is run as root
 if [[ $EUID -ne 0 ]]; then
